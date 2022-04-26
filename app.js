@@ -16,7 +16,7 @@ if (userInput < j) {
 // Exercise 2
 let userInput2 = prompt(`What's the best pizza topping?`);
 
-switch (userInput2) {
+switch (userInput2.toLowerCase) {
     case "pepperoni":
     case "pepperonis":
         alert(`Classic.  Reliable.  Let's eat!`);
